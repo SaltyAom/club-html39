@@ -44,6 +44,12 @@ h2 {
     color:#000;
 }
 
+h3,h4,h5,h6 {
+    display:block;
+    font-size: 36px;
+    margin:10px 0;
+}
+
 p {
     font-size: 18px;
     display:block;
@@ -89,4 +95,12 @@ section, header, footer {
 
 .footer-link > a:hover, .footer-link > a:focus {
     background-color: rgba(0,0,0,.05);
+}
+
+@media screen and (max-width:767.9px){
+    section,header,footer {
+        width: 90%;
+        margin-left:auto;
+        margin-right:auto;
+    }
 }
