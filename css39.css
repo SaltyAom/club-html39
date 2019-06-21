@@ -97,10 +97,22 @@ section, header, footer {
     background-color: rgba(0,0,0,.05);
 }
 
-@media screen and (max-width:767.9px){
+@media screen and (min-width: 568px) and  (max-width:767.9px){
     section,header,footer {
-        width: 90%;
+        width: 80%;
         margin-left:auto;
         margin-right:auto;
     }
+    #thumbnail { width:100%; }
+}
+
+@media screen and (max-width:579.9px){
+    section, header, footer {
+        width:100%;
+    }
+    h1,h2,h3,h4,h5,h6,p {
+        padding-left: 2.5%;
+        padding-right: 2.5%;
+    }
+    #thumbnail { width:100%; }
 }
